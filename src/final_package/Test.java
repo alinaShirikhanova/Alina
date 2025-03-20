@@ -36,8 +36,12 @@ public class Test {
 //        car.color ="Черный";
 //        car = new Car(23, "");
         User user1 = new User(1, "1", "1");
+        User.printCounter();
         User user2 = new User(2, "2", "2");
+        User.printCounter();
         User user3 = new User(3, "2", "3");
+        User.printCounter();
+        user1.setId(1);
 //        System.out.println(user1.count);
 //
 //        System.out.println(User.count);

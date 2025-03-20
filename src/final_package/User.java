@@ -21,14 +21,21 @@ public class User {
         this.id = id;
     }
 
-//    public void setId(int id){
-//        this.id = 78;
-//    }
+
+    public static void printCounter() {
+        System.out.println(User.count);
+    }
+
+    public void setId(int id){
+        System.out.println(count);
+        System.out.println(this.login);
+    }
 
     public void changeLogin(final String login) {
 //        login = "new";
     }
-    public void printInfo(){
+
+    public void printInfo() {
 
     }
 }
