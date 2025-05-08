@@ -1,7 +1,7 @@
 package l29_04_2025;
 
 public class Car {
-    String model;
+    public String model;
     double price;
 
     public Car(String model) {
@@ -12,9 +12,14 @@ public class Car {
         this.price = price;
         this.model = model;
     }
+//    public Car(){}
 
     public void start(){
         System.out.println("Заводим машину");
+    }
+
+    public Car getCar(){
+        return new Car("Toyota");
     }
 }
 
